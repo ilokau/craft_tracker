@@ -1,4 +1,5 @@
 import Navbar from "./components/navbar"
+import ProjectList from "./components/project-list"
 
 function App() {
   return (
@@ -20,10 +21,10 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="flex w-full flex-col">
-        <h2 className="text-2xl font-bold px-3 py-3">Your Projects</h2>
-      </div>
       <div className="divider" />
+      <div className="flex w-full flex-col gap-4 px-3 py-3">
+        <ProjectList />
+      </div>
     </>
   )
 }
