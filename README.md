@@ -1,6 +1,6 @@
 # Craft Tracker
 
-CraftTrack is a personal project management app for tracking handicraft and crochet projects.
+Craft Tracker (temporary name) is a personal project management app for tracking handicraft and crochet projects.
 
 I started building this because I easily lose track of:
 
