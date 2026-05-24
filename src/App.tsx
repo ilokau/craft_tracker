@@ -1,5 +1,5 @@
 
-import './App.css'
+// styles are provided by Tailwind in index.css
 
 function App() {
   return (
@@ -7,9 +7,10 @@ function App() {
     <div className="hero bg-base-200 min-h-screen">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
-      src="assets/images/knitting.png"
-      className="max-w-sm"
-    />
+          src="/assets/images/knitting.png"
+          alt="knitting icon"
+          className="max-w-sm"
+        />
     <div>
       <h1 className="text-5xl font-bold">Craft Tracker</h1>
       <p className="py-6">
